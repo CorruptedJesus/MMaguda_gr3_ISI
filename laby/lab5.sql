@@ -5,7 +5,7 @@ CREATE TABLE kreatura SELECT * FROM wikingowie.kreatura;
 CREATE TABLE zasob SELECT * FROM wikingowie.zasob;
 CREATE TABLE ekwipunek SELECT * FROM wikingowie.ekwipunek;
 lub
-CREATE TABLE kreatura AS (SELECT * FROM wikingowie.kreatura);
+CREATE TABLE kreatura AS SELECT * FROM wikingowie.kreatura;
 #2
 SELECT * FROM zasob;
 #3
